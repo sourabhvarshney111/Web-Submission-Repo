@@ -24,15 +24,16 @@ After creation, your project should look like this:
 
 ## Code Style
 1.Proper folder struture has been maintained 
-client
-config
-models
-node_modules
-routes\api
-validation
- gitignore
- package-lock.json
- package.json
+##CROPSELLER
+ *client
+ *config
+ *models
+ *node_modules
+ *routes\api
+ *validation
+ *gitignore
+ *package-lock.json
+ *package.json
  
  
 For the project to build, these files must exist with exact filenames:
