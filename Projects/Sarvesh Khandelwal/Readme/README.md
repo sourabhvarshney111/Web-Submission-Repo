@@ -86,12 +86,11 @@ It is very easy to use if anyone wamts.Just follow the steps.
 
 5. Then type the following commands to install required dependencies of client site i.e Frontent Site while remain at root directory.
 
-```javascript
      npm install  
-     ```
+     
 6. After successful installation run the following command to start the application :
-      ```javascript
-       npm run dev
-      ```
+      
+     npm run dev
+      
    If you see *Server Has Started!!* then you have successfully setup everything and good to go with our application.
 
