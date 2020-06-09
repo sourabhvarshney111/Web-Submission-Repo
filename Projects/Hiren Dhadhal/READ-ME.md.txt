@@ -1,0 +1,57 @@
+There is a zip file for the code.So after extracting it as node-modules have been deleted all the dependencies will have to installed.
+Firstly use "npm init" for inialising.
+Then download all depencies of backend :=
+"npm i express mongoose body-parser passport passport-jwt jsonwebtoken  validator concurrently".
+For Dev dependencies "npm i -D nodemon".
+That will be it for backend.
+
+Type "npm install" for install all the dependencies for Frontend.
+That should be it and your package.json should look like this :-
+
+"dependencies": {
+    "@testing-library/jest-dom": "^4.2.4",
+    "@testing-library/react": "^9.5.0",
+    "@testing-library/user-event": "^7.2.1",
+    "axios": "^0.19.2",
+    "classnames": "^2.2.6",
+    "jwt-decode": "^2.2.0",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "react-redux": "^7.2.0",
+    "react-router-dom": "^5.2.0",
+    "react-scripts": "3.4.1",
+    "react-types": "^0.1.0",
+    "redux": "^4.0.5",
+    "redux-thunk": "^2.3.0"
+  }, for frontend [client folder]
+
+and 
+
+"dependencies": {
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.19.0",
+    "concurrently": "^5.2.0",
+    "create-react-app": "^3.4.1",
+    "express": "^4.17.1",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.9.18",
+    "passport": "^0.4.1",
+    "passport-jwt": "^4.0.0",
+    "validator": "^13.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  }
+ for backend.
+
+Now run the command "npm run dev" which will first start backend server and then frontend server will also give a message "Mongodb connected"
+and open your browser if this happens everything is working well.
+
+
+NOW about the site.
+Its just a simple site with signup,login and logout features not much styled.
+Firstly user will Register after going to that page and after successful registration he will be directed to login form where on successful login
+he will be taken to dashboard where he can sell his products.And there he can logout which will take him back to the login page.
+
+
+  
