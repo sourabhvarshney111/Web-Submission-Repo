@@ -1,6 +1,6 @@
 # Introduction
 
-This is the Git Repository for the Kisan Hetu Web App. This is a platform for farmers where they can easily create their account and sell their crops directly to the end consumer.
+This is the Git Repository for the Kisan Hetu (For the sake of Farmers) Web App. This is a platform for farmers where they can easily create their account and sell their crops directly to the end consumer.
 
 ## Development Mode Running
 
