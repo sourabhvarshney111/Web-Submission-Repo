@@ -24,15 +24,16 @@ After creation, your project should look like this:
 
 ## Code Style
 1.Proper folder struture has been maintained 
-client
-config
-models
-node_modules
-routes\api
-validation
- gitignore
- package-lock.json
- package.json
+##CROPSELLER
+ * client
+ * config
+ * models
+ * node_modules
+ * routes\api
+ * validation
+ * gitignore
+ * package-lock.json
+ * package.json
  
  
 For the project to build, these files must exist with exact filenames:
@@ -86,12 +87,15 @@ It is very easy to use if anyone wamts.Just follow the steps.
 
 5. Then type the following commands to install required dependencies of client site i.e Frontent Site while remain at root directory.
 
-```javascript
-     npm install  
+     ```javascript
+     npm install 
      ```
+     
 6. After successful installation run the following command to start the application :
-      ```javascript
-       npm run dev
-      ```
+      
+    ```javascript
+     npm run dev
+     ```
+      
    If you see *Server Has Started!!* then you have successfully setup everything and good to go with our application.
 
